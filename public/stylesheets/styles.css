@@ -1,0 +1,192 @@
+/*
+	My Custome Stylesheet
+	
+*/
+
+/* First, pull in Bootstrap's stylesheet */
+@import url(bootstrap.css);
+
+/* Now my custom styles */
+body {
+	background-image:url(../images/ricepaper2.png);
+	font-family: "Droid Serif", serif;
+	padding-top: 60px;
+	
+}
+
+section{
+	width: 100%;
+	height: 100%;
+	height: auto !important;
+	min-height: 100%;
+	overflow-x: hidden;
+	position: relative;	
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+section#home{
+	padding-top: 160px;
+	padding-bottom: 80px;
+}
+
+h1#gallerytitle{
+	text-align: right;
+}
+
+section#restaurants, section#gallery{
+	background-image:url(../images/ricepaper2Y.png);
+}
+
+a#home{
+	font-size: 40px;
+	color: rgba(0, 0, 0, 0.5);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
+	
+}
+
+.navbar .nav > li > a#home:hover {
+	border: none;
+	background-color: transparent;
+}
+.navbar .nav .active > a#home{
+	border: none;
+	background-color: transparent;
+}
+
+
+.navbar .nav > li > a#rli:hover,
+.navbar .nav > li > a#fli:hover,
+.navbar .nav > li > a#gli:hover,
+.navbar .nav > li > a#cli:hover {
+	color: #ffffff;
+	  text-decoration: none;
+	  background: transparent;
+	  padding: 9px 9px 9px;
+	  background-color: transparent;
+	  background-color: #993333;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  border: 1px solid #663333;
+	  border-bottom: 1px solid #996666;
+}
+	
+.navbar .nav .active > a#rli,
+.navbar .nav .active > a#rli:hover,
+.navbar .nav .active > a#fli,
+.navbar .nav .active > a#fli:hover,
+.navbar .nav .active > a#gli,
+.navbar .nav .active > a#gli:hover,
+.navbar .nav .active > a#cli,
+.navbar .nav .active > a#cli:hover {
+	color: #ffffff;
+	  text-decoration: none;
+	  padding: 9px 9px 9px;
+	  background-color: transparent;
+		background-color: #993333;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+	  -webkit-border-radius: 5px;
+	  border: 1px solid #663333;
+	  border-bottom: 1px solid #996666;
+}
+
+ul#right.nav{
+	float: right;
+}
+
+ul.nav li:nth-child(3) {
+	width: 820px;
+	background: none;
+	text-align: center;
+	margin-top: 0;
+}
+
+.row-fluid #ise.span3, #ad.span3{
+    border-right: 1px dotted #993333;
+}
+	
+p#resttext{
+	margin: 5px;
+	color: #993333;
+}
+
+#menu.container{
+	padding: 5px;
+}
+
+.css-map{
+	-webkit-backface-visibility: hidden;
+	-webkit-animation: moveUp 0.6s ease-in-out 0.2s backwards;
+		-moz-animation: moveUp 0.6s ease-in-out 0.2s backwards;
+		-o-animation: moveUp 0.6s ease-in-out 0.2s backwards;
+		-ms-animation: moveUp 0.6s ease-in-out 0.2s backwards;
+		animation: moveUp 0.6s ease-in-out 0.2s backwards;
+}
+
+@-webkit-keyframes moveUp{
+	0% { 
+		-webkit-transform: translateY(40px); 
+		opacity: 0;
+	}
+	100% { 
+		-webkit-transform: translateY(0px);  
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes moveUp{
+	0% { 
+		-moz-transform: translateY(40px); 
+		opacity: 0;
+	}
+	100% { 
+		-moz-transform: translateY(0px);  
+		opacity: 1;
+	}
+}
+
+@-o-keyframes moveUp{
+	0% { 
+		-o-transform: translateY(40px); 
+		opacity: 0;
+	}
+	100% { 
+		-o-transform: translateY(0px);  
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes moveUp{
+	0% { 
+		-ms-transform: translateY(40px); 
+		opacity: 0;
+	}
+	100% { 
+		-ms-transform: translateY(0px);  
+		opacity: 1;
+	}
+}
+
+@keyframes moveUp{
+	0% { 
+		transform: translateY(40px); 
+		opacity: 0;
+	}
+	100% { 
+		transform: translateY(0px);  
+		opacity: 1;
+	}
+}
+
+
+footer.footer{
+	background-image:url(../images/ricepaper2R.png);
+}
+
+footer.footer p{
+	padding: 15px;
+	color: #cc9966;
+}
+
