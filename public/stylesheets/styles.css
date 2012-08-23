@@ -39,11 +39,6 @@ a#home{
 	
 }
 
-#gcontent.tab-content {
-	overflow: auto;
-	padding-left: 180px;
-}
-
 .navbar .nav > li > a#home:hover {
 	border: none;
 	background-color: transparent;
