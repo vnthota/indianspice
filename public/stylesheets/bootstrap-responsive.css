@@ -435,6 +435,11 @@
 }
 
 @media (min-width: 1200px) {
+	
+	.navbar .brand{
+		display: none;
+	}
+	
   .row {
     margin-left: -30px;
     *zoom: 1;
@@ -684,14 +689,14 @@
   body {
     padding-top: 0;
   }
+  
+  	.navbar .brand{
+		display: none;
+	}
 
-  ul.nav li#logo{
-	width: 380px;
-	background: none;
-	text-align: center;
-	margin-top: 0;
-}
-
+	ul.nav li#logo{
+	display: none;
+  }
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     position: static;
