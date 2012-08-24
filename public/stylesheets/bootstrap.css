@@ -3614,7 +3614,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   display: block;
   float: left;
-  padding: 8px 20px 12px;
+  padding: 5px 5px 5px;
   margin-left: -20px;
   font-size: 22px;
   font-weight: 700;
@@ -3803,7 +3803,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .btn {
   display: inline-block;
   padding: 4px 10px 4px;
-  margin: 5px 5px 6px;
+  margin: 10px 5px 6px;
   line-height: 18px;
 }
 

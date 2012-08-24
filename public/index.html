@@ -147,8 +147,28 @@
 				  <li><a id="miga" href="#migallerytab" >Machhan India</a></li>
 				</ul>
 				<div id="gcontent" class="tab-content" >
-				  <div class="tab-pane fade in active" id="isgallerytab" style="width:800px; margin:0 auto;">		
-					<div class="flexslider span12" id="slider1">
+				  <div class="tab-pane fade in active" id="isgallerytab">
+					<div class="flex-container span8">	
+						<div class="flexslider" id="slider1">
+						  <ul class="slides">
+						    <li data-thumb="slide1-thumb.jpg">
+						      <img src="images/slide1.jpg" />
+						    </li>
+						    <li data-thumb="slide2-thumb.jpg">
+						      <img src="images/slide2.jpg" />
+						    </li>
+						    <li data-thumb="slide3-thumb.jpg">
+						      <img src="images/slide3.jpg" />
+						    </li>
+						    <li data-thumb="slide4-thumb.jpg">
+						      <img src="images/slide4.jpg" />
+						    </li>
+						  </ul>
+						</div>
+					</div>
+				  </div>
+				  <div class="tab-pane fade" id="isegallerytab">	
+						<div class="flexslider span8" id="slider2">
 						  <ul class="slides">
 						    <li data-thumb="slide1-thumb.jpg">
 						      <img src="images/slide1.jpg" />
@@ -165,8 +185,8 @@
 						  </ul>
 						</div>
 				  </div>
-				  <div class="tab-pane fade" id="isegallerytab" style="width:800px; margin:0 auto;">	
-						<div class="flexslider span12" id="slider2">
+				  <div class="tab-pane fade" id="adgallerytab">
+				  		<div class="flexslider span8" id="slider3">
 						  <ul class="slides">
 						    <li data-thumb="slide1-thumb.jpg">
 						      <img src="images/slide1.jpg" />
@@ -183,26 +203,8 @@
 						  </ul>
 						</div>
 				  </div>
-				  <div class="tab-pane fade" id="adgallerytab" style="width:800px; margin:0 auto;">
-				  		<div class="flexslider span12" id="slider3">
-						  <ul class="slides">
-						    <li data-thumb="slide1-thumb.jpg">
-						      <img src="images/slide1.jpg" />
-						    </li>
-						    <li data-thumb="slide2-thumb.jpg">
-						      <img src="images/slide2.jpg" />
-						    </li>
-						    <li data-thumb="slide3-thumb.jpg">
-						      <img src="images/slide3.jpg" />
-						    </li>
-						    <li data-thumb="slide4-thumb.jpg">
-						      <img src="images/slide4.jpg" />
-						    </li>
-						  </ul>
-						</div>
-				  </div>
-				  <div class="tab-pane fade" id="migallerytab" style="width:800px; margin:0 auto;">
-				  		<div class="flexslider span12" id="slider4">
+				  <div class="tab-pane fade" id="migallerytab">
+				  		<div class="flexslider span8" id="slider4">
 						  <ul class="slides">
 						    <li data-thumb="slide1-thumb.jpg">
 						      <img src="images/slide1.jpg" />
@@ -342,6 +344,7 @@
 	<script type="text/javascript" charset="utf-8">
 	  $(window).load(function() {
 	    $('.flexslider').flexslider();
+		controlsContainer: '.flex-container'
 	  });
 	</script>
 	
@@ -355,6 +358,7 @@
 	  e.preventDefault();
 	  $(this).tab('show');
 	  $('.flexslider').flexslider();
+		controlsContainer: '.flex-container'
 	})
 	</script>
 

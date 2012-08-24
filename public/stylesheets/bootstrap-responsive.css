@@ -105,6 +105,10 @@
     padding-top: 0;
     text-align: left;
   }
+   section {
+	padding: 10px;
+   }
+
   .form-horizontal .controls {
     margin-left: 0;
   }
@@ -435,7 +439,6 @@
 }
 
 @media (min-width: 1200px) {
-	
 	.navbar .brand{
 		display: none;
 	}
@@ -685,13 +688,13 @@
   }
 }
 
-@media (max-width: 979px) {
+@media (max-width: 1024px) {
   body {
     padding-top: 0;
   }
   
   	.navbar .brand{
-		display: none;
+	display:block;
 	}
 
 	ul.nav li#logo{
@@ -820,11 +823,5 @@
     padding-right: 10px;
     padding-left: 10px;
   }
-}
-
-@media (min-width: 980px) {
-  .nav-collapse.collapse {
-    height: auto !important;
-    overflow: visible !important;
-  }
+	
 }
