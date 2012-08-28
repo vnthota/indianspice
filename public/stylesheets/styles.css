@@ -83,11 +83,33 @@ a#home{
 	-webkit-border-radius: 5px;
 	border: 1px solid #663333;
 	border-bottom: 1px solid #996666;
+
 }
 
 .nav-tabs{
 	border-bottom: none;
 }
+
+.tab-content {
+overflow: auto;
+text-align: center;
+}
+
+h3#menuheading{
+	text-decoration: none;
+	padding: 9px 9px 9px;
+	background-color: transparent;
+	border-bottom: 3px solid rgba(148, 148, 148, 0.16);
+	-webkit-box-shadow: 0 2px 0 white;
+	-moz-box-shadow: 0 2px 0 white;
+	box-shadow: 0 2px 0 white;
+}
+
+h4#menuitems{
+	padding: 10px;
+	color: #933;
+}
+
 
 a#isfa,
 a#isefa,
