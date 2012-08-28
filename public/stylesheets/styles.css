@@ -95,8 +95,9 @@ overflow: auto;
 text-align: center;
 }
 
-#flex.span12{
-	padding: 0px 0px 0px;
+div.flex-container{
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 h3#menuheading{

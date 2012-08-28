@@ -85,6 +85,10 @@
   .visible-desktop {
     display: none !important ;
   }
+  div.flex-container{
+	padding-left: 0px;
+	padding-right: 0px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -95,6 +99,12 @@
     display: block;
     line-height: 18px;
   }
+  
+  div.flex-container{
+	padding-left: 0px;
+	padding-right: 0px;
+  }
+
   input[type="checkbox"],
   input[type="radio"] {
     border: 1px solid #ccc;
@@ -152,6 +162,12 @@
   .container-fluid {
     padding: 0;
   }
+
+  div.flex-container{
+	padding-left: 0px;
+	padding-right: 0px;
+  }
+
   .dl-horizontal dt {
     float: none;
     width: auto;
@@ -211,6 +227,10 @@
   .row:after {
     display: table;
     content: "";
+  }
+  div.flex-container{
+	padding-left: 0px;
+	padding-right: 0px;
   }
   .row:after {
     clear: both;
@@ -696,7 +716,10 @@
   	.navbar .brand{
 	display:block;
 	}
-
+   div.flex-container{
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+   }
 	ul.nav li#logo{
 	display: none;
   }
