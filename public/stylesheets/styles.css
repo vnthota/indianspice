@@ -95,6 +95,10 @@ overflow: auto;
 text-align: center;
 }
 
+#flex.span12{
+	padding: 0px 0px 0px;
+}
+
 h3#menuheading{
 	text-decoration: none;
 	padding: 9px 9px 9px;
@@ -218,10 +222,10 @@ p#resttext{
 }
 
 .fade{
-	-webkit-transition: opacity 0.15s linear;
-	-moz-transition: opacity 0.15s linear;
-	-o-transition: opacity 0.15s linear;
-	transition: opacity 0.15s linear;
+	-webkit-transition: opacity 0.30s linear;
+	-moz-transition: opacity 0.30s linear;
+	-o-transition: opacity 0.30s linear;
+	transition: opacity 0.30s linear;
 }
 
 .css-map{
