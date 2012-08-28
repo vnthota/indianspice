@@ -147,8 +147,9 @@
     $('body').on('click.alert.data-api', dismiss, Alert.prototype.close)
   })
 
-}(window.jQuery);/* ============================================================
- * bootstrap-button.js v2.0.4
+}(window.jQuery);
+/* ============================================================
+ * bootstrap-button.js v2.1.0
  * http://twitter.github.com/bootstrap/javascript.html#buttons
  * ============================================================
  * Copyright 2012 Twitter, Inc.
