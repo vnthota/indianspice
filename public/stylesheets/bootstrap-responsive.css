@@ -459,10 +459,6 @@
 }
 
 @media (min-width: 1100px) {
-	.navbar .brand{
-		display: none;
-	}
-	
   .row {
     margin-left: -30px;
     *zoom: 1;
@@ -712,10 +708,9 @@
   body {
     padding-top: 0;
   }
-  
-  	.navbar .brand{
-	display:block;
-	}
+   .navbar .brand{
+   display:block;
+   }
    div.flex-container{
  	padding-left: 0px;
  	padding-right: 0px;
