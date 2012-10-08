@@ -9,9 +9,9 @@
 /* Now my custom styles */
 body {
 	background-image:url(../images/ricepaper2.png);
-	font-family: "Rokkitt", serif;
+	font-family: "Josefin+Slab", serif;
 	padding-top: 60px;
-	font-weight: 700;
+	
 }
 
 section{
@@ -19,16 +19,16 @@ section{
 	padding-bottom: 60px;
 }
 
-section#tohome{
-	padding-top: 80px;
-	padding-bottom: 150px;
+section#home{
+	padding-top: 160px;
+	padding-bottom: 80px;
 }
 
 h1#gallerytitle{
 	text-align: right;
 }
 
-section#torestaurants, section#togallery{
+section#restaurants, section#gallery{
 	background-image:url(../images/ricepaper2Y.png);
 }
 
@@ -36,7 +36,7 @@ a#home.brand{
 	font-size: 40px;
 	color: rgba(0, 0, 0, 0.5);
 	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
-	padding-top: 5px;
+	padding: 0px;
 	margin-left: 0px;
 }
 
@@ -56,7 +56,7 @@ a#home.brand{
 	color: #ffffff;
 	text-decoration: none;
 	background: transparent;
-	padding: 14px 14px 14px;
+	padding: 9px 9px 9px;
 	background-color: transparent;
 	background-color: #993333;
 	-moz-border-radius: 5px;
@@ -76,7 +76,7 @@ a#home.brand{
 .navbar .nav .active > a#cli:hover {
 	color: #ffffff;
 	text-decoration: none;
-	padding: 14px 14px 14px;
+	padding: 9px 9px 9px;
 	background-color: transparent;
 	  background-color: #993333;
 	-moz-border-radius: 5px;
@@ -121,7 +121,6 @@ h3#menuheading{
 h4#menuitems{
 	padding: 10px;
 	color: #933;
-	font-size: 16px;
 }
 
 
@@ -130,8 +129,6 @@ a#isefa,
 a#adfa,
 a#mifa{
 	color: #933;
-	font-size: 16px;
-	font-weight: 400;
 }
 
 .nav-tabs > li > a#isfa:hover,
@@ -171,8 +168,6 @@ a#isega,
 a#adga,
 a#miga{
 	color: #933;
-	font-size: 16px;
-	font-weight: 400;
 }
 
 .nav-tabs > li > a#isga:hover,
@@ -227,11 +222,8 @@ ul.nav li#logo{
 }
 	
 p#resttext{
-	
-	font-size: 14px;
 	margin: 5px;
 	color: #993333;
-	font-style: normal;
 }
 
 #menu.container{
@@ -315,7 +307,7 @@ p#resttext{
 	margin:40px auto 0 auto;
 }
 .va-wrapper{
-	width:100;
+	width:100%;
 	height:100%;
 	position:relative;
 	overflow:hidden;
@@ -340,6 +332,15 @@ p#resttext{
 .va-slice-4{
 	background:#000 url(../images/4.jpg) no-repeat center center;
 }
+.va-slice-5{
+	background:#000 url(../images/5.jpg) no-repeat center center;
+}
+.va-slice-6{
+	background:#000 url(../images/6.jpg) no-repeat center center;
+}
+.va-slice-7{
+	background:#000 url(../images/7.jpg) no-repeat center center;
+}
 .va-slice-color-1{
 	background-color:#97c5eb;
 }
@@ -352,14 +353,22 @@ p#resttext{
 .va-slice-color-4{
 	background-color:#0039a6;
 }
+.va-slice-color-5{
+	background-color:#00338e;
+}
+.va-slice-color-6{
+	background-color:#002c76;
+}
+.va-slice-color-7{
+	background-color:#002144;
+}
 .va-title{
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 600;
+	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform:uppercase;
 	font-size:60px;
 	margin-left:20px;
-	color:#FDC858;
-
+	color:#fff;
+	text-shadow: 0px 0px 1px white;
 }
 .va-content{
 	display:none;
@@ -367,20 +376,53 @@ p#resttext{
 }
 .va-slice p{
 	font-size: 22px;
-	font-style: normal;
-	font-family:'Rokkitt', serif;
-	color: #c96;
-	font-weight: 400;
+	font-style: italic;
+	font-family:Georgia, serif;
 }
-.va-slice dl{
+.va-slice ul{
 	margin-top:20px;
-	font-size: 14px;
-	font-family:'Droid Serif', serif;
-	color: #c96;
 }
-.va-slice dl dt{
+.va-slice ul li{
+	float:left;
 	margin:0px 2px;
 }
+.va-slice ul li a{
+	color:#000;
+	background:#eede2f;
+	padding:3px 6px;
+	font-size:14px;
+	font-family:'PT Sans', sans-serif;
+	text-transform:uppercase;
+}
+.va-slice ul li a:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+}
+.va-nav span{
+	width:40px;
+	height:25px;
+	background:transparent url(../images/prev.png) no-repeat center center;
+	position:absolute;
+	top:-35px;
+	left:50%;
+	margin-left:-20px;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	display:none;
+	z-index:100;
+}
+.va-nav span.va-nav-next{
+	background-image:url(../images/next.png);
+	top:auto;
+	bottom:-35px;
+}
+.va-nav span:hover{
+	opacity:1.0;
+}
+
+
 
 footer.footer{
 	background-image:url(../images/ricepaper2R.png);
