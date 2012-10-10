@@ -9,7 +9,7 @@
 /* Now my custom styles */
 body {
 	background-image:url(../images/ricepaper2.png);
-	font-family: "Josefin+Slab", serif;
+	font-family: "Josefin Sans", serif;
 	padding-top: 60px;
 	
 }
@@ -28,16 +28,18 @@ h1#gallerytitle{
 	text-align: right;
 }
 
-section#restaurants, section#gallery{
+section#torestaurants, section#togallery{
 	background-image:url(../images/ricepaper2Y.png);
 }
 
 a#home.brand{
-	font-size: 40px;
+	font-size: 20px;
 	color: rgba(0, 0, 0, 0.5);
 	text-shadow: 0 1px 0 rgba(255, 255, 255, .1), 0 0 30px rgba(255, 255, 255, .125);
 	padding: 0px;
 	margin-left: 0px;
+	font-family: 'Josefin Sans', serif;
+	font-weight: 700;
 }
 
 .navbar .nav > li > a#home:hover {
@@ -56,7 +58,7 @@ a#home.brand{
 	color: #ffffff;
 	text-decoration: none;
 	background: transparent;
-	padding: 9px 9px 9px;
+	padding: 14px 14px 14px;
 	background-color: transparent;
 	background-color: #993333;
 	-moz-border-radius: 5px;
@@ -76,7 +78,7 @@ a#home.brand{
 .navbar .nav .active > a#cli:hover {
 	color: #ffffff;
 	text-decoration: none;
-	padding: 9px 9px 9px;
+	padding: 14px 14px 14px;
 	background-color: transparent;
 	  background-color: #993333;
 	-moz-border-radius: 5px;
@@ -129,6 +131,7 @@ a#isefa,
 a#adfa,
 a#mifa{
 	color: #933;
+	font-size: 18px;
 }
 
 .nav-tabs > li > a#isfa:hover,
@@ -168,6 +171,7 @@ a#isega,
 a#adga,
 a#miga{
 	color: #933;
+	font-size: 18px;
 }
 
 .nav-tabs > li > a#isga:hover,
@@ -363,9 +367,9 @@ p#resttext{
 	background-color:#002144;
 }
 .va-title{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	text-transform:uppercase;
-	font-size:60px;
+	font-size:50px;
 	margin-left:20px;
 	color:#fff;
 	text-shadow: 0px 0px 1px white;
@@ -375,9 +379,11 @@ p#resttext{
 	margin-left:25px;
 }
 .va-slice p{
-	font-size: 22px;
-	font-style: italic;
-	font-family:Georgia, serif;
+	font-size: 20px;
+	font-style: none;
+	color: white;
+	font-family: 'Josefin Sans', serif;
+	font-weight: 300;
 }
 .va-slice ul{
 	margin-top:20px;
@@ -387,7 +393,7 @@ p#resttext{
 	margin:0px 2px;
 }
 .va-slice ul li a{
-	color:#000;
+	color: white;
 	background:#eede2f;
 	padding:3px 6px;
 	font-size:14px;

@@ -422,9 +422,6 @@ a:hover {
 
 p {
   margin: 0 0 0px;
-  font-family: "Droid Serif", serif;
-  font-style: italic ;
-  font-weight: 400;
 }
 
 p small {
@@ -447,7 +444,6 @@ h5,
 h6 {
   margin: 0;
   font-family: inherit;
-  font-weight: bold;
   color: inherit;
   text-rendering: optimizelegibility;
 }
@@ -479,6 +475,7 @@ h2 {
   line-height: 36px;
   color: #660000;
   margin-bottom: 10px;
+	font-weight: 400;
 }
 
 h2 small {
@@ -490,6 +487,7 @@ h3 {
   line-height: 27px;
   color: #993333;
   margin: 5px;
+  font-weight: normal;
 }
 
 h3 small {
@@ -503,7 +501,7 @@ h6 {
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 h4 small {
@@ -3639,8 +3637,7 @@ input[type="submit"].btn.btn-mini {
   padding: 5px 5px 5px;
   margin-left: -20px;
   font-size: 22px;
-  font-weight: 700;
-  line-height: 1;
+  line-height: 2;
   color: #cc9966;
   
 }
@@ -3815,7 +3812,7 @@ input[type="submit"].btn.btn-mini {
   font-size: 18px;
   float: none;
   padding: 15px;
-  line-height: 20px;
+  line-height: 10px;
   color: #cc9966;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
