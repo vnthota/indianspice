@@ -24,13 +24,46 @@ section#home{
 	padding-bottom: 80px;
 }
 
+section#torestaurants, section#togallery{
+	background-image:url(../images/ricepaper2Y.png);
+}
+
+p {
+	font-size: 15px;
+}
+
 h1#gallerytitle{
 	text-align: right;
 }
 
-section#torestaurants, section#togallery{
-	background-image:url(../images/ricepaper2Y.png);
+h2 {
+	font-weight: 400;
 }
+
+h3 {
+	font-weight: 700;
+}
+
+h3.va-title{
+	font-weight: 400;
+}
+
+h3#menuheading{
+	text-decoration: none;
+	padding: 9px 9px 9px;
+	background-color: transparent;
+	border-bottom: 3px solid rgba(148, 148, 148, 0.16);
+	-webkit-box-shadow: 0 2px 0 white;
+	-moz-box-shadow: 0 2px 0 white;
+	box-shadow: 0 2px 0 white;
+}
+
+h4#menuitems{
+	padding: 10px;
+	color: #933;
+}
+
+
 
 a#home.brand{
 	font-size: 20px;
@@ -110,20 +143,7 @@ img{
 }
 
 
-h3#menuheading{
-	text-decoration: none;
-	padding: 9px 9px 9px;
-	background-color: transparent;
-	border-bottom: 3px solid rgba(148, 148, 148, 0.16);
-	-webkit-box-shadow: 0 2px 0 white;
-	-moz-box-shadow: 0 2px 0 white;
-	box-shadow: 0 2px 0 white;
-}
 
-h4#menuitems{
-	padding: 10px;
-	color: #933;
-}
 
 
 a#isfa,
@@ -308,7 +328,7 @@ p#resttext{
 /* Vertical Accordion Style */
 .va-container{
 	position:relative;
-	margin:40px auto 0 auto;
+	margin:0px auto 0 auto;
 }
 .va-wrapper{
 	width:100%;

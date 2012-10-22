@@ -158,9 +158,9 @@ textarea {
 body {
   margin: 0;
   
-  font-size: 14px;
+  font-size: 15px;
   line-height: 18px;
-  color: #333333;
+  color: white;
   background-color: #ffffff;
 }
 
@@ -487,7 +487,6 @@ h3 {
   line-height: 27px;
   color: #993333;
   margin: 5px;
-  font-weight: normal;
 }
 
 h3 small {
