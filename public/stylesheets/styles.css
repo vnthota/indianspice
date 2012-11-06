@@ -30,6 +30,7 @@ section#torestaurants, section#togallery{
 
 p {
 	font-size: 15px;
+	color: #C96;
 }
 
 h1#gallerytitle{
@@ -143,7 +144,9 @@ img{
 }
 
 
-
+a#moreinfo{
+	color: white;
+}
 
 
 a#isfa,
@@ -247,7 +250,8 @@ ul.nav li#logo{
 	
 p#resttext{
 	margin: 5px;
-	color: #993333;
+	color: white;
+	font-weight: 300;
 }
 
 #menu.container{
@@ -326,9 +330,14 @@ p#resttext{
 }
 
 /* Vertical Accordion Style */
+
+
+
 .va-container{
 	position:relative;
 	margin:0px auto 0 auto;
+	padding-top: 65px;
+	padding-bottom: 70px;
 }
 .va-wrapper{
 	width:100%;
@@ -355,15 +364,6 @@ p#resttext{
 }
 .va-slice-4{
 	background:#000 url(../images/4.jpg) no-repeat center center;
-}
-.va-slice-5{
-	background:#000 url(../images/5.jpg) no-repeat center center;
-}
-.va-slice-6{
-	background:#000 url(../images/6.jpg) no-repeat center center;
-}
-.va-slice-7{
-	background:#000 url(../images/7.jpg) no-repeat center center;
 }
 .va-slice-color-1{
 	background-color:#97c5eb;
@@ -397,6 +397,7 @@ p#resttext{
 .va-content{
 	display:none;
 	margin-left:25px;
+
 }
 .va-slice p{
 	font-size: 20px;

@@ -299,7 +299,7 @@
 						// the accordion's height
 						accordionH		: 450,
 						// number of visible slices
-						visibleSlices	: 3,
+						visibleSlices	: 4,
 						// the height of a opened slice
 						// should not be more than accordionH
 						expandedHeight	: 350,
