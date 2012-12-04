@@ -76,6 +76,10 @@ a#home.brand{
 	font-weight: 700;
 }
 
+a#telnum{
+	color: white;
+}
+
 .navbar .nav > li > a#home:hover {
 	border: none;
 	background-color: transparent;
