@@ -453,7 +453,16 @@ p#resttext{
 	opacity:1.0;
 }
 
-
+a.pull-left{
+	display: block;
+	width: 33px;
+	height: 28px;
+	background: url('../images/vtlogo.png') bottom;
+	text-indent: -99999px;
+	position: relative;
+	top: -5px;
+	left: 0px;
+}
 
 footer.footer{
 	background-image:url(../images/ricepaper2R.png);
@@ -462,5 +471,6 @@ footer.footer{
 footer.footer p{
 	padding: 15px;
 	color: #cc9966;
+	text-align: center;
 }
 

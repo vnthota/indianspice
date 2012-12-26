@@ -385,18 +385,6 @@
 						$navPrev.bind('click.vaccordion', function(e){
 							aux.navigate( -1, $slices, $navNext, $navPrev, settings );
 						});
-						
-						// adds events to the mouse
-						$el.bind('mousewheel.vaccordion', function(e, delta) {
-							if(delta > 0) {
-								aux.navigate( -1, $slices, $navNext, $navPrev, settings );
-							}	
-							else {
-								aux.navigate( 1, $slices, $navNext, $navPrev, settings );
-							}	
-							return false;
-						});
-						
 					});
 				}
 			}

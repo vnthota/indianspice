@@ -702,7 +702,8 @@
 
 <footer class="footer">
         <p class="pull-right"><a href="#">Back to top</a></p>
-		<p>© 2012 Indian Spice Macau. All Right Reserved.</p>
+		<p><a class="pull-left" rel="tooltip" data-placement="right" href="http://varunthota.com" data-original-title="Developer/Designer">Website</a>© 2012 Indian Spice Macau. All Right Reserved.</p>
+		
 </footer>
 
     <!-- Le javascript
@@ -720,6 +721,12 @@
 		controlsContainer: '.flex-container'
 	  });
 	</script>
+	
+	<script type="text/javascript">
+				$(function(){
+				    $('a[rel=tooltip]').tooltip();
+				});
+			</script>
 	
 	<script type="text/javascript">
 				$(function() {
