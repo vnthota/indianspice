@@ -65,7 +65,9 @@ h4#menuitems{
 	color: #933;
 }
 
-
+div#findus.span5{
+	margin-left: 0%;
+}
 
 a#home.brand{
 	font-size: 20px;
@@ -466,6 +468,35 @@ a.pull-left{
 	position: relative;
 	top: -5px;
 	left: 0px;
+}
+
+.facebook {
+	display: block;
+	width: 50px;
+	height: 48px;
+	background: url('../images/fb.png') bottom;
+	text-indent: -99999px;
+	position:relative;
+	top: 0px;
+	left: -7px;
+}
+.facebook:hover {
+	background-position: 0 0;
+}
+
+.tripadvisor {
+	display: block;
+	width: 44px;
+	height: 44px;
+	background: url('../images/ta.png') bottom;
+	text-indent: -99999px;
+	position:relative;
+	top: -46px;
+	left: 43px;
+	
+}
+.tripadvisor:hover {
+	background-position: 0 0;
 }
 
 footer.footer{
