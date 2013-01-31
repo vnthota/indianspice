@@ -33,7 +33,7 @@
 							
 							// hide the content div
 							$el.find('.va-content').hide();
-							
+							$el.find('a#btndown.carousel-control.right').show();
 							// control the navigation buttons visibility
 							if( aux.canSlideUp( $slices, settings ) )
 								$navPrev.fadeIn();
@@ -54,6 +54,9 @@
 							itemHeight	= settings.expandedHeight;
 							// the height the other slices will have
 							othersHeight= Math.ceil( ( settings.accordionH - settings.expandedHeight ) / ( settings.visibleSlices - 1 ) );
+						
+							$el.find('a#btndown.carousel-control.right').hide();
+							
 							
 							// control the navigation buttons visibility
 							if( cache.idx_expanded > 0 )
