@@ -43,7 +43,7 @@ h2 {
 
 h3 {
 	font-weight: 700;
-	
+	padding-top: 10px;
 }
 
 h3.va-title{
@@ -457,6 +457,21 @@ p#resttext{
 }
 .va-nav span:hover{
 	opacity:1.0;
+}
+
+#iconright.icon-chevron-down{
+	float: right;
+}
+
+.accordion-heading .accordion-toggle{
+	color: #993333;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.accordion-inner{
+	color: #c96;
 }
 
 a.pull-left{
