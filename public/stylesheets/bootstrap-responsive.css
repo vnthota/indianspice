@@ -260,6 +260,9 @@
   .thumbail.span6 {
 	padding: 10px 0;
   }
+  iframe#maps{
+	display: none;
+  }
 }
 
 /* Landscape phone to portrait tablet */
